@@ -1,0 +1,16 @@
+using System;
+
+namespace eaudproj_react_design
+{
+    public class Costumer
+    {
+        public int Id { get; set; }
+
+        public string Nome { get; set; }
+
+        public string Cpf { get; set; }
+
+        public DateTime DataNascimento { get; set; }
+
+    }
+}
